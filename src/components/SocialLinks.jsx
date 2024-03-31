@@ -41,7 +41,7 @@ const SocialLinks = () => {
                     Resume <BsFillPersonLinesFill size={25} />
                 </>
             ),
-            href: "/",
+            href: "https://prabalgupta2411.tiiny.site",
             style: "rounded-br-md",
             download: true
         },
