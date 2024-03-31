@@ -33,7 +33,7 @@ const About = () => {
 
 
                     <AiOutlineCloudDownload />
-                    <a href="/" download>Download CV</a>
+                    <a href="https://prabalgupta2411.tiiny.site" download>Download CV</a>
                 </div>
             </div>
         </div>
