@@ -3,6 +3,7 @@ import { AiOutlineCloudDownload } from 'react-icons/ai'
 import '../App.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Report from '../assets/projects/Resume.pdf'
 
 const About = () => {
     useEffect(() => {
@@ -33,7 +34,7 @@ const About = () => {
 
 
                     <AiOutlineCloudDownload />
-                    <a href="https://prabalgupta2411.tiiny.site" download>Download CV</a>
+                    <a href={Report}>Download CV</a>
                 </div>
             </div>
         </div>

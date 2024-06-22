@@ -8,6 +8,7 @@ import '../App.css'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs'
 
+
 const Home = () => {
     useEffect(()=> {
         AOS.init({duration: 1000})

@@ -2,6 +2,7 @@ import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import Report from '../assets/projects/Resume.pdf'
 
 const SocialLinks = () => {
 
@@ -41,9 +42,9 @@ const SocialLinks = () => {
                     Resume <BsFillPersonLinesFill size={25} />
                 </>
             ),
-            href: "https://prabalgupta2411.tiiny.site",
+            href: Report,
             style: "rounded-br-md",
-            download: true
+            download: false
         },
     ]
 
