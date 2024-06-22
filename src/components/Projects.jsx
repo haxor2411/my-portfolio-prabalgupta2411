@@ -1,11 +1,11 @@
 import React,{useEffect} from 'react'
-import Sandesh from '../assets/projects/sandeshh.png'
-import Gist from '../assets/projects//gist.png'
-import Chatbot from '../assets/projects/chatbot.png'
+import Sorting from '../assets/projects/sorting.png'
+import Shopping from '../assets/projects//shopping.png'
+import Proctor from '../assets/projects/proctor.png'
 import Ide from '../assets/projects/ide.png'
-import ShopEasy from '../assets/projects/shopeasy.png'
 import Upscale from '../assets/projects/upscale.png'
 import AOS from 'aos'
+import Report from '../assets/projects/Report.pdf'
 import 'aos/dist/aos.css'
 
 const Projects = () => {
@@ -16,46 +16,46 @@ const Projects = () => {
   const Projects = () => [
     {
       id: 1,
-      src: Sandesh,
-      desc: "Sandesh is a Chat App made using ReactJS + Tailwind CSS + ChatEngine API Service + Firebase authentication...",
-      demo: "https://sandeshh.netlify.app/",
-      code: "https://github.com/dipayansarkar47/Sandesh"
+      src: Sorting,
+      desc: "Sorting algorithm visualization tool to illustrate and compare the mechanics and efficiency of various sorting algorithms in real-time.",
+      demo: "https://sorting-visualizer-haxor2411s-projects.vercel.app/",
+      code: "https://github.com/haxor2411/sorting-visualizer"
     },
     {
       id: 2,
-      src: ShopEasy,
-      desc: "This Full-Stack ShopKaro e-commerce website is made using ReactJS, Tailwind CSS, Firebase....",
-      demo: "https://shopeasyy.vercel.app/",
-      code: "https://github.com/dipayansarkar47/shopeasy"
+      src: Shopping,
+      desc: "This is an E-Commerce Website build for selling of any electronics products online.",
+      demo: "https://github.com/haxor2411/shopping-cart",
+      code: "https://github.com/haxor2411/shopping-cart"
     },
     {
       id: 3,
-      src: Chatbot,
-      desc: "An Artificially Intelligent Chatbot using the GPT-4 Model to help people.",
-      demo: "https://cwbbot.vercel.app/",
-      code: "https://github.com/dipayansarkar47/ai-chatbot"
+      src: Proctor,
+      desc: "The Online Exam Proctor System is a computer vision-based project designed to ensure the integrity and fairness of online exams.",
+      demo: Report,
+      code: "https://github.com/haxor2411/The-Online-Exam-Proctor"
     },
-    {
-      id: 4,
-      src: Ide,
-      // desc: "Keeper is a simple note taking application made using Flutter...",
-      demo: "https://opeditor.vercel.app/",
-      code: "https://github.com/dipayansarkar47/online-code-editor"
-    },
-    {
-      id: 5,
-      src: Upscale,
-      // desc: "It is a Weather application which shows temperatures of various cities across the globe made using REST API...",
-      demo: "https://upscaleai.vercel.app/",
-      code: "https://github.com/dipayansarkar47/upscale-ai"
-    },
-    {
-      id: 6,
-      src: Gist,
-      // desc: "It is a Face-Detection application made using Python and Computer Vision...",
-      demo: "https://gist-ai.vercel.app/",
-      code: "https://github.com/dipayansarkar47/Gist.AI-Summarizer"
-    },
+    // {
+    //   id: 4,
+    //   src: Ide,
+    //   // desc: "Keeper is a simple note taking application made using Flutter...",
+    //   demo: "https://opeditor.vercel.app/",
+    //   code: "https://github.com/dipayansarkar47/online-code-editor"
+    // },
+    // {
+    //   id: 5,
+    //   src: Upscale,
+    //   // desc: "It is a Weather application which shows temperatures of various cities across the globe made using REST API...",
+    //   demo: "https://upscaleai.vercel.app/",
+    //   code: "https://github.com/dipayansarkar47/upscale-ai"
+    // },
+    // {
+    //   id: 6,
+    //   src: Gist,
+    //   // desc: "It is a Face-Detection application made using Python and Computer Vision...",
+    //   demo: "https://gist-ai.vercel.app/",
+    //   code: "https://github.com/dipayansarkar47/Gist.AI-Summarizer"
+    // },
   ]
 
 
